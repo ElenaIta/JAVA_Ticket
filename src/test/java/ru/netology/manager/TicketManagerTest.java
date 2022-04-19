@@ -53,6 +53,7 @@ class TicketManagerTest {
         Ticket[] actual = new Ticket[]{sixth, third, second, seventh};
 
         Arrays.sort(actual);
+        System.out.println(Arrays.toString(actual));
         assertArrayEquals(expected, actual);
     }
 }
